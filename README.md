@@ -3,7 +3,7 @@ This app demonstrates the usage of hierarchical data using Keno UI List View con
 
 The app is accessible by either selecting the “Try in AppBuilder” button, or you can manually download the zip file by selecting the “Download ZIP” button above. Note: The app is not compatible with the Telerik Platform Views service.
 
-<a href="https://platform.telerik.com/#appbuilder/clone/https://github.com/audaciousanil/Sample-Hierarchical-PDS_Template/tree/master/Hierarchical%20-%20PDS%20Template">Try in AppBuilder</a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https://github.com/audaciousanil/Sample-Hierarchical-PDS_Template">Try in AppBuilder</a>
 
 This app can be cloned in the Telerik Platform (by selecting above button) to build a Hybrid Mobile App. You can explore and modify the code, and build and run it on Android and iOS devices.
 
@@ -20,7 +20,7 @@ In addition, it provides the user with the ability to perform CUD operations (cr
 
 For more information, download the sample app to the Telerik Platform, and see its README.txt.
 
-Running the Sample
+## Running the Sample
 
 With the Telerik Platform, you can deploy apps in the device simulator and on device wirelessly or via cable connection. For more information about running apps, see Running Your App.
 
@@ -28,6 +28,4 @@ To test the LiveSync JavaScript API sample, choose one of the following deployme
 
 Build your project for the companion app and deploy it via QR code.
 Build your project as an application package with the Debug build configuration.
-License
 
-This sample is licensed under the Apache License, Version 2.0. For more information, see License.
