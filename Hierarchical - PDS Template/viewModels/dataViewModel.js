@@ -440,16 +440,14 @@ var jsdo_for_orders;
                 jsdoDataSource = dataViewModel.jsdoDataSource,
                 promise;
             
-            try {
-                
-                promise = jsdoDataSource.sync();    
-                
+            try {                              
+                // Check for the changes and perform sync operation accordingly. Please note that sync will internally perform JSDO's saveChanges() operation'
                 if (jsdoDataSource.hasChanges()){
                 	promise = jsdoDataSource.sync();    
                 }
                 else {
                     promise = jsdoDataSource.sync();  
-                    app.viewModels.dataViewModel.jsdoModel.saveChanges(true);
+                    // app.viewModels.dataViewModel.jsdoModel.saveChanges(true);
                 }
                 
                 
